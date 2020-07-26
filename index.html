@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>H5 music player</title>
+    <link rel="stylesheet" type="text/css" href="Css/tplayer.css" />
+    <link rel="stylesheet" type="text/css" href="Plugins/FontAwesome4.1/css/font-awesome.min.css" />
+    <script src="Js/jquery.js"></script>
+    <script src="Js/jquery-ui.js"></script>
+    <script src="Js/sPlayer.js"></script>
+</head>
+<body>
+    <div id="t_wrapper">
+        <div id="t_cover">
+        	<img src="Images/logo.png">
+        </div>
+    	<div id="t_top">
+    		<div id="t_title_info">
+    			<span class="artist"></span>
+    			<span class="title"></span>
+    		</div>
+    	</div>
+    	<div id="t_middle">
+    		<div id="play"></div>
+    		<div id="pause" class="hidden">
+    		</div>
+    		<div class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="t_progress">
+                <div id="trackInfo">
+                    <div id="error">
+    				</div>
+                    <div id="current">0:00</div>
+                    <div id="duration">0:00</div>
+    			</div>
+    			<div style="width: 0%;" class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min"></div>
+            	<span style="left: 0%;" class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0"></span>
+            </div>
+    		<span id="prev"></span>
+            <span id="next"></span>
+    	</div>
+    	<div id="t_bottom">
+            <div id="range">
+                <div id="val"></div>
+                <div id="vol"></div>
+                <div id="rangeVal"></div>
+            </div>
+            <div id="t_pls_show" class="noselectpls"></div>
+    	</div>
+    </div>
+    <div id="playlist">
+        <ul>
+            <li t_cover="Cyua - Rё∀˥.png" t_artist="Cyua" t_name="Rё∀˥">
+            	<a href="#">Cyua - Rё∀˥</a>
+            	<audio preload="none">
+                    <source src="Media/Cyua - Rё∀˥.mp3" type="audio/mp3">
+                   
+            	</audio>
+            </li>
+            <li t_cover="GET IN THE RING - Samsara.png" t_artist="GET IN THE RING" t_name="Samsara">
+            	<a href="#">GET IN THE RING - Samsara</a>
+                <audio preload="none">
+                    <source src="Media/GET IN THE RING - Samsara.mp3" type="audio/mp3">
+                    
+                </audio>
+            </li>
+            <li t_cover="supercell - My Dearest.png" t_artist="supercell" t_name="My Dearest">
+            	<a href="#">supercell - My Dearest</a>
+                <audio preload="none">
+                    <source src="Media/supercell - My Dearest.mp3" type="audio/mp3">
+                    
+                </audio>
+            </li>
+        <li t_cover="初音ミク (初音未来)Ryo - ODDS&ENDS.png" t_artist="初音ミク (初音未来)Ryo" t_name="ODDS&ENDS">
+            	<a href="#">初音ミク (初音未来)Ryo - ODDS&ENDS</a>
+                <audio preload="none">
+                    <source src="Media/初音ミク (初音未来)Ryo - ODDS&ENDS.mp3" type="audio/mp3">
+             
+                </audio>
+            </li>
+      
+       <li t_cover="陽花 - Flower of Life.png" t_artist="陽花" t_name="Flower of Life">
+            	<a href="#">陽花 - Flower of Life</a>
+                <audio preload="none">
+                    <source src="Media/陽花 - Flower of Life.mp3" type="audio/mp3">
+                </audio>
+            </li>
+     
+
+          <li t_cover="FELT - You're the Shine (Night Butterflies).png" t_artist="FELT" t_name="You're the Shine (Night Butterflies)">
+            	<a href="#">FELT - You're the Shine (Night Butterflies)</a>
+                <audio preload="none">
+                    <source src="Media/FELT - You're the Shine (Night Butterflies).mp3" type="audio/mp3">
+                    </audio>      
+            </li>
+          <li t_cover="Christmas Scene.png" t_artist="SawanoHiroyuki[nZk]" t_name="Christmas Scene">
+            	<a href="#">Christmas Scene - SawanoHiroyuki[nZk]</a>
+                <audio preload="none">
+                    <source src="Media/Christmas Scene - SawanoHiroyuki[nZk].mp3" type="audio/mp3">
+                    </audio>      
+            </li>
+
+
+
+
+
+
+
+
+        </ul>
+    </div>
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+</div>
+</body>
+</html>
